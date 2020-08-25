@@ -6,7 +6,7 @@ import (
 	"sort"
 )
 
-// XOR allocates a new byte slice with the computed result of XOR(a, b).
+// XOR return the result of XOR(a, b).
 func XOR(a, b []byte) []byte {
 	if len(a) != len(b) {
 		return a
